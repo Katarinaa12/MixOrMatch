@@ -114,12 +114,10 @@ body {
 }
 
 .card-back {
-  background-color: #f77d03;
+  background-color: #ed953d;
   border-color: #f77d03;
   transform: rotateY(0); 
 }
-
-
 
 
 .card-face:hover .cob-web {
