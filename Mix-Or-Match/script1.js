@@ -9,6 +9,7 @@ class AudioController {
         this.bgMusic.loop = true;
     }
     startMusic() {
+
         this.bgMusic.play();
     }
     stopMusic() {
@@ -153,7 +154,7 @@ function ready() {
         });
     });
 
-    cards.forEach(card => {
+    cards.forEach(card  => {
         card.addEventListener('click', () => {
             game.flipCard(card);
         });
