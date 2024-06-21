@@ -1,3 +1,9 @@
+/*
+  CSS stilovi za Friends Memory Game.
+  Ovde su definisani stilovi za naslov, pozadinsku sliku, fontove i animacije.
+  Prilagođeno za desktop i mobilne uređaje.
+*/
+
 @font-face {
     font-family: "Creepy";
     src: url("Assets/Fonts/GABRWFFR.TTF") format("woff"),
@@ -50,6 +56,10 @@ body {
   border-left: 2px solid rgb(255, 251, 0);
   border-bottom: 2px solid rgb(255, 251, 0);
 }
+.back-button:hover {
+  transform: rotate(90deg); 
+}
+
 
 .page-title {
   color: #8229af;
